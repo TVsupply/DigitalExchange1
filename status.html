@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from 4b2xbwz5wnwhzgln2vgou53orawio6wmm6t5ag7qyvpp47r3aqvkskid.onion/status.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Apr 2024 21:06:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <title>Money Shop - Financial Services - Order status</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="PayPal verified accounts and prepaid Credit Cards.">
+  <meta name="keywords" content="paypal,paypal accounts,paypal verified accounts,prepaid,prepaid credit cards,credit card,finance,visa,mastercard">
+  <meta name="theme-color" content="#263238">
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.png">
+  <link href="assets/css/bootstrap.css" rel="stylesheet" id="bootstrapTheme">
+  <link href="assets/css/main.css" rel="stylesheet" id="mainTheme">
+  <link href="assets/fonts/montserra.html" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/plugins/animations.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.css">
+  <link rel="stylesheet" href="assets/css/plugins/font-awesome5.css">
+</head>
+<body>
+  <div id="page-wrap">
+    <div class="navbar navbar-default navbar-fixed-top navbar-height" role="navigation" id="navbarSettings">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="scroll navbar-brand scroll" href="index.html"><img src="assets/img/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right" id="nav">
+            <li class="dropdown">
+              <a href="index.html">Back to Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="navbarSpaceBottom"></div>
+    <div class="space-md"></div>
+    <div class="section-xlg bg-grey">
+      <div class="container">
+        <div class="space-lg"></div>
+        <h2 class="md-title">Check the status of your order</h2>
+        <div class="space-lg"></div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div id="form">
+              <form id="easy" name="order" method="post" action="javascript:void(0);">
+                <div class="form-group icon">
+                  <div class="control input last">
+                    <input type="text" name="orderid" class="form-control" id="orderid" placeholder="Order id : XLB5..." required> <i class="fa fa-hashtag"></i>
+                  </div>
+                </div>
+                <div class="form-group icon text-center">
+                  <button name="submit" type="submit" class="btn btn-primary btn-xlg" id="buy"><i class="fa fa-search"></i>Search</button>
+                </div>
+              </form>
+              <div class="clearfix"></div>
+              <br>
+              <div class="alert alert-danger" id='result-status' style='display:none;'>Order not found.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+  <div class="container">
+	<div class="space-sm"></div>
+	<div class="text-center">
+	  <div class="panel-body">
+		<h3>Any question ? Any trouble ? Need some help ? Contact us !</h3>
+		<div class="space-sm"></div>
+		<h4>DigitalExchange@dnmx.org</h4>
+	  </div>
+	</div>
+	<div class="space-md"></div>
+	<div>
+	  &copy; 2020-2022
+	</div>
+  </div>
+</div><a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>  </div>
+  <script src="assets/js/plugins/jquery.min.js"></script> 
+  <script src="assets/js/plugins/jquery-ui.min.js"></script> 
+  <script src="assets/js/plugins/bootstrap.min.js"></script> 
+  <script src="assets/js/plugins/smoothScroll.js"></script> 
+  <script src="assets/js/plugins/wow.js"></script> 
+  <script src="assets/js/plugins/classie.js"></script> 
+  <script src="assets/js/plugins/jquery.nav.js"></script> 
+  <script src="assets/js/plugins.js"></script> 
+  <script src="assets/js/custom.js"></script> 
+  <script>
+
+
+        $(function() {
+        //Plugins Init
+        Plugins.init();
+        Plugins.animations();
+        Plugins.wow();
+        Plugins.onePageNav();
+
+        //Custom JS Init
+        Custom.init();
+        Custom.mobileMenuAnimation();
+        $('body').on("submit","#easy",function(){
+          $('#result-status').show();
+          setTimeout(function(){$('#result-status').hide();},12000);
+          setTimeout(function(){$('#easy')[0].reset();},100);
+        });
+    });
+  </script>
+</body>
+
+<!-- Mirrored from 4b2xbwz5wnwhzgln2vgou53orawio6wmm6t5ag7qyvpp47r3aqvkskid.onion/status.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Apr 2024 21:07:30 GMT -->
+</html>
